@@ -175,7 +175,7 @@ if !has("gui_running")                   " ConEmu settings
     let &t_AF="\e[38;5;%dm"
 endif
 
-colorscheme molokai                      " Default to the Molokai color scheme (originally created for TextMate by Wimer Hazenberg)
+colorscheme Tomorrow-Night               " Default to the Molokai color scheme (originally created for TextMate by Wimer Hazenberg)
 syntax on                                " Enable syntax highlighting
 set cursorline                           " Highlight current line
 
