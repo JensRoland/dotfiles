@@ -9,7 +9,7 @@ function doIt() {
 
     if command -v rsync >/dev/null 2>&1; then
         echo "Syncing dotfiles to home directory..."
-        rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
+        rsync --exclude ".git/" --exclude ".DS_Store" --exclude "*.sh" \
             --exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
     else
         echo "Rsync not found."
